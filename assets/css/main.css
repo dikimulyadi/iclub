@@ -56,7 +56,24 @@
 :root {
   scroll-behavior: smooth;
 }
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:60px;
+  right:10px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  
+  z-index:100;
+}
 
+.my-float{
+  margin-top:16px;
+}
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
@@ -853,7 +870,7 @@ section,
   padding: 120px 0 60px 0;
   display: flex;
   align-items: center;
-  background: url("../img/hero-bg.png") center center;
+  background: url("../img/bg.jpg") center center;
   background-size: cover;
 }
 
@@ -923,19 +940,19 @@ section,
 
 @media (min-width: 992px) {
   .hero .animated {
-    max-width: 45%;
+    max-width: 25%;
   }
 }
 
 @media (max-width: 991px) {
   .hero .animated {
-    max-width: 60%;
+    max-width: 40%;
   }
 }
 
 @media (max-width: 575px) {
   .hero .animated {
-    max-width: 80%;
+    max-width: 60%;
   }
 }
 
